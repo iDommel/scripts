@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: diff notes",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./seq1.mid", "./seq1_diff_note.mid"],
+            "cwd": "${workspaceFolder}/compare_midi"
+        },
+        {
+            "name": "Python: diff tempo",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./seq1.mid", "./seq1_diff_tempo.mid"],
+            "cwd": "${workspaceFolder}/compare_midi"
+        },
+        {
+            "name": "Python: diff tempo 2",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./seq2.mid", "./seq2_diff_tempo2.mid"],
+            "cwd": "${workspaceFolder}/compare_midi"
+        }
+    ]
+}
