@@ -3,8 +3,8 @@ input.txt
 output.txt
 temp.mid
 detected_notes.mid
-
-
+preprocessing/data
+*:Zone.Identifier
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
