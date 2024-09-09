@@ -1,0 +1,25 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+    "numpy>=1.22.2,<1.23.0"
+]
+
+[tool.setuptools]
+package-dir = {"" = "."}
+
+
+[project]
+name = "autone-lilypond-test"
+version = "0.1.0"
+description = "lilypond test"
+authors = [
+    {name = "iona", email = "iona@gmail.com"}
+]
+
+license = {text = "MIT"}
+readme = "README.md"
+dependencies = [
+    "autonetools_core@git+https://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@github.com/autone-scores-from-audio/autonetools-core.git",
+    "autonetools_audiomidi@git+https://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@github.com/autone-scores-from-audio/autonetools-audiomidi.git"
+]
